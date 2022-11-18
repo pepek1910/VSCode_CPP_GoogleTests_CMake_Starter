@@ -1,0 +1,4 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.24/Modules/CMakeDependentOption.cmake
+C:/Program Files/CMake/share/cmake-3.24/Modules/GNUInstallDirs.cmake
+D:/Projekty/Learnings/CMakeVSCV2/vscode-cmake-hello/build/_deps/googletest-src/CMakeLists.txt

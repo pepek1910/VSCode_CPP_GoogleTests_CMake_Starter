@@ -1,0 +1,14 @@
+# Target labels
+ googletest-populate
+# Source files and their labels
+D:/Projekty/Learnings/CMakeVSCV2/vscode-cmake-hello/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate
+D:/Projekty/Learnings/CMakeVSCV2/vscode-cmake-hello/build/_deps/googletest-subbuild/CMakeFiles/ae72f5b44688a174d8d5ae1a09a9f3bd/googletest-populate.rule
+D:/Projekty/Learnings/CMakeVSCV2/vscode-cmake-hello/build/_deps/googletest-subbuild/CMakeFiles/110be6cc548f217969f191057da79dfe/googletest-populate-complete.rule
+D:/Projekty/Learnings/CMakeVSCV2/vscode-cmake-hello/build/_deps/googletest-subbuild/CMakeFiles/7d1edcf63dd29fef16e42460db5dfd1b/googletest-populate-build.rule
+D:/Projekty/Learnings/CMakeVSCV2/vscode-cmake-hello/build/_deps/googletest-subbuild/CMakeFiles/7d1edcf63dd29fef16e42460db5dfd1b/googletest-populate-configure.rule
+D:/Projekty/Learnings/CMakeVSCV2/vscode-cmake-hello/build/_deps/googletest-subbuild/CMakeFiles/7d1edcf63dd29fef16e42460db5dfd1b/googletest-populate-download.rule
+D:/Projekty/Learnings/CMakeVSCV2/vscode-cmake-hello/build/_deps/googletest-subbuild/CMakeFiles/7d1edcf63dd29fef16e42460db5dfd1b/googletest-populate-install.rule
+D:/Projekty/Learnings/CMakeVSCV2/vscode-cmake-hello/build/_deps/googletest-subbuild/CMakeFiles/7d1edcf63dd29fef16e42460db5dfd1b/googletest-populate-mkdir.rule
+D:/Projekty/Learnings/CMakeVSCV2/vscode-cmake-hello/build/_deps/googletest-subbuild/CMakeFiles/7d1edcf63dd29fef16e42460db5dfd1b/googletest-populate-patch.rule
+D:/Projekty/Learnings/CMakeVSCV2/vscode-cmake-hello/build/_deps/googletest-subbuild/CMakeFiles/7d1edcf63dd29fef16e42460db5dfd1b/googletest-populate-test.rule
+D:/Projekty/Learnings/CMakeVSCV2/vscode-cmake-hello/build/_deps/googletest-subbuild/CMakeFiles/7d1edcf63dd29fef16e42460db5dfd1b/googletest-populate-update.rule

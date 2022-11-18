@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/Projekty/Learnings/CMakeVSCV2/vscode-cmake-hello/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate"
+		},
+		{
+			"file" : "D:/Projekty/Learnings/CMakeVSCV2/vscode-cmake-hello/build/_deps/googletest-subbuild/CMakeFiles/ae72f5b44688a174d8d5ae1a09a9f3bd/googletest-populate.rule"
+		},
+		{
+			"file" : "D:/Projekty/Learnings/CMakeVSCV2/vscode-cmake-hello/build/_deps/googletest-subbuild/CMakeFiles/110be6cc548f217969f191057da79dfe/googletest-populate-complete.rule"
+		},
+		{
+			"file" : "D:/Projekty/Learnings/CMakeVSCV2/vscode-cmake-hello/build/_deps/googletest-subbuild/CMakeFiles/7d1edcf63dd29fef16e42460db5dfd1b/googletest-populate-build.rule"
+		},
+		{
+			"file" : "D:/Projekty/Learnings/CMakeVSCV2/vscode-cmake-hello/build/_deps/googletest-subbuild/CMakeFiles/7d1edcf63dd29fef16e42460db5dfd1b/googletest-populate-configure.rule"
+		},
+		{
+			"file" : "D:/Projekty/Learnings/CMakeVSCV2/vscode-cmake-hello/build/_deps/googletest-subbuild/CMakeFiles/7d1edcf63dd29fef16e42460db5dfd1b/googletest-populate-download.rule"
+		},
+		{
+			"file" : "D:/Projekty/Learnings/CMakeVSCV2/vscode-cmake-hello/build/_deps/googletest-subbuild/CMakeFiles/7d1edcf63dd29fef16e42460db5dfd1b/googletest-populate-install.rule"
+		},
+		{
+			"file" : "D:/Projekty/Learnings/CMakeVSCV2/vscode-cmake-hello/build/_deps/googletest-subbuild/CMakeFiles/7d1edcf63dd29fef16e42460db5dfd1b/googletest-populate-mkdir.rule"
+		},
+		{
+			"file" : "D:/Projekty/Learnings/CMakeVSCV2/vscode-cmake-hello/build/_deps/googletest-subbuild/CMakeFiles/7d1edcf63dd29fef16e42460db5dfd1b/googletest-populate-patch.rule"
+		},
+		{
+			"file" : "D:/Projekty/Learnings/CMakeVSCV2/vscode-cmake-hello/build/_deps/googletest-subbuild/CMakeFiles/7d1edcf63dd29fef16e42460db5dfd1b/googletest-populate-test.rule"
+		},
+		{
+			"file" : "D:/Projekty/Learnings/CMakeVSCV2/vscode-cmake-hello/build/_deps/googletest-subbuild/CMakeFiles/7d1edcf63dd29fef16e42460db5dfd1b/googletest-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"googletest-populate"
+		],
+		"name" : "googletest-populate"
+	}
+}

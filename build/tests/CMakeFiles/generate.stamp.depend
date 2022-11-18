@@ -1,0 +1,12 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.24/Modules/CTest.cmake
+C:/Program Files/CMake/share/cmake-3.24/Modules/CTestTargets.cmake
+C:/Program Files/CMake/share/cmake-3.24/Modules/CTestUseLaunchers.cmake
+C:/Program Files/CMake/share/cmake-3.24/Modules/DartConfiguration.tcl.in
+C:/Program Files/CMake/share/cmake-3.24/Modules/FetchContent.cmake
+C:/Program Files/CMake/share/cmake-3.24/Modules/FetchContent/CMakeLists.cmake.in
+C:/Program Files/CMake/share/cmake-3.24/Modules/FindGit.cmake
+C:/Program Files/CMake/share/cmake-3.24/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.24/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.24/Modules/GoogleTest.cmake
+D:/Projekty/Learnings/CMakeVSCV2/vscode-cmake-hello/tests/CMakeLists.txt

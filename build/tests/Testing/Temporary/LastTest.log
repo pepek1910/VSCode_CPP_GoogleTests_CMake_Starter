@@ -1,0 +1,30 @@
+Start testing: Nov 18 10:43 Œrodkowoeuropejski czas stand.
+----------------------------------------------------------
+1/1 Testing: HelloTests.testHello
+1/1 Test: HelloTests.testHello
+Command: "D:/Projekty/Learnings/CMakeVSCV2/vscode-cmake-hello/build/tests/Debug/HelloTests.exe" "--gtest_filter=HelloTests.testHello" "--gtest_also_run_disabled_tests"
+Directory: D:/Projekty/Learnings/CMakeVSCV2/vscode-cmake-hello/build/tests
+"HelloTests.testHello" start time: Nov 18 10:43 Œrodkowoeuropejski czas stand.
+Output:
+----------------------------------------------------------
+Running main() from D:\Projekty\Learnings\CMakeVSCV2\vscode-cmake-hello\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = HelloTests.testHello
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HelloTests
+[ RUN      ] HelloTests.testHello
+[       OK ] HelloTests.testHello (0 ms)
+[----------] 1 test from HelloTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"HelloTests.testHello" end time: Nov 18 10:43 Œrodkowoeuropejski czas stand.
+"HelloTests.testHello" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Nov 18 10:43 Œrodkowoeuropejski czas stand.

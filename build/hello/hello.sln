@@ -7,6 +7,12 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ALL_BUILD", "ALL_BUILD.vcxp
 		{00520B35-CC9C-3B45-A53E-E116FE2E5E9D} = {00520B35-CC9C-3B45-A53E-E116FE2E5E9D}
 	EndProjectSection
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "INSTALL", "INSTALL.vcxproj", "{F47C2198-B92D-372C-9969-1448F0AC3D30}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1AD50452-2598-3CAD-9F01-DCE1BA478926} = {1AD50452-2598-3CAD-9F01-DCE1BA478926}
+		{115D3CCA-5B5F-3EB5-9603-C964AED22B0B} = {115D3CCA-5B5F-3EB5-9603-C964AED22B0B}
+	EndProjectSection
+EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ZERO_CHECK", "..\\ZERO_CHECK.vcxproj", "{115D3CCA-5B5F-3EB5-9603-C964AED22B0B}"
 	ProjectSection(ProjectDependencies) = postProject
 	EndProjectSection
@@ -25,9 +31,17 @@ Global
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{1AD50452-2598-3CAD-9F01-DCE1BA478926}.Debug|win32.ActiveCfg = Debug|win32
+		{1AD50452-2598-3CAD-9F01-DCE1BA478926}.Debug|win32.Build.0 = Debug|win32
 		{1AD50452-2598-3CAD-9F01-DCE1BA478926}.Release|win32.ActiveCfg = Release|win32
+		{1AD50452-2598-3CAD-9F01-DCE1BA478926}.Release|win32.Build.0 = Release|win32
 		{1AD50452-2598-3CAD-9F01-DCE1BA478926}.MinSizeRel|win32.ActiveCfg = MinSizeRel|win32
+		{1AD50452-2598-3CAD-9F01-DCE1BA478926}.MinSizeRel|win32.Build.0 = MinSizeRel|win32
 		{1AD50452-2598-3CAD-9F01-DCE1BA478926}.RelWithDebInfo|win32.ActiveCfg = RelWithDebInfo|win32
+		{1AD50452-2598-3CAD-9F01-DCE1BA478926}.RelWithDebInfo|win32.Build.0 = RelWithDebInfo|win32
+		{F47C2198-B92D-372C-9969-1448F0AC3D30}.Debug|win32.ActiveCfg = Debug|win32
+		{F47C2198-B92D-372C-9969-1448F0AC3D30}.Release|win32.ActiveCfg = Release|win32
+		{F47C2198-B92D-372C-9969-1448F0AC3D30}.MinSizeRel|win32.ActiveCfg = MinSizeRel|win32
+		{F47C2198-B92D-372C-9969-1448F0AC3D30}.RelWithDebInfo|win32.ActiveCfg = RelWithDebInfo|win32
 		{115D3CCA-5B5F-3EB5-9603-C964AED22B0B}.Debug|win32.ActiveCfg = Debug|win32
 		{115D3CCA-5B5F-3EB5-9603-C964AED22B0B}.Debug|win32.Build.0 = Debug|win32
 		{115D3CCA-5B5F-3EB5-9603-C964AED22B0B}.Release|win32.ActiveCfg = Release|win32

@@ -173,6 +173,26 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
+    <ProjectReference Include="D:\Projekty\Learnings\CMakeVSCV2\vscode-cmake-hello\build\tests\HelloTests.vcxproj">
+      <Project>{89227E5B-16C7-328B-8F9D-8A2D90B989EA}</Project>
+      <Name>HelloTests</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Projekty\Learnings\CMakeVSCV2\vscode-cmake-hello\build\_deps\googletest-build\googlemock\gmock.vcxproj">
+      <Project>{12303139-1007-3B56-AA30-404FEEF89F87}</Project>
+      <Name>gmock</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Projekty\Learnings\CMakeVSCV2\vscode-cmake-hello\build\_deps\googletest-build\googlemock\gmock_main.vcxproj">
+      <Project>{D8387C04-06BF-3976-B324-8DCB00C1B37F}</Project>
+      <Name>gmock_main</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Projekty\Learnings\CMakeVSCV2\vscode-cmake-hello\build\_deps\googletest-build\googletest\gtest.vcxproj">
+      <Project>{E135CF2E-4363-30E4-A7EF-1808DF5AA711}</Project>
+      <Name>gtest</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Projekty\Learnings\CMakeVSCV2\vscode-cmake-hello\build\_deps\googletest-build\googletest\gtest_main.vcxproj">
+      <Project>{FAD4A6FA-104F-3A26-ADCB-CBB23E3E9B47}</Project>
+      <Name>gtest_main</Name>
+    </ProjectReference>
     <ProjectReference Include="D:\Projekty\Learnings\CMakeVSCV2\vscode-cmake-hello\build\hello\hello.vcxproj">
       <Project>{00520B35-CC9C-3B45-A53E-E116FE2E5E9D}</Project>
       <Name>hello</Name>

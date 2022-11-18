@@ -21,3 +21,9 @@ add_custom_command(TARGET hello POST_BUILD
      "$<TARGET_FILE:hello>"
      "../apps/$<CONFIGURATION>/$<TARGET_FILE_NAME:hello>" 
   COMMENT "Copying to output directory")
+
+add_custom_command(TARGET hello POST_BUILD 
+COMMAND "${CMAKE_COMMAND}" -E copy 
+    "$<TARGET_FILE:hello>"
+    "../tests/$<CONFIGURATION>/$<TARGET_FILE_NAME:hello>" 
+COMMENT "Copying to tests directory")

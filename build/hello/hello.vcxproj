@@ -132,9 +132,18 @@ exit /b %1
 if %errorlevel% neq 0 goto :VCEnd</Command>
     </PreLinkEvent>
     <PostBuildEvent>
-      <Message>Copying to output directory</Message>
+      <Message>Copying to output directory	Copying to tests directory</Message>
       <Command>setlocal
 "C:\Program Files\CMake\bin\cmake.exe" -E copy D:/Projekty/Learnings/CMakeVSCV2/vscode-cmake-hello/build/hello/Debug/hello.dll ../apps/Debug/hello.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/Projekty/Learnings/CMakeVSCV2/vscode-cmake-hello/build/hello/Debug/hello.dll ../tests/Debug/hello.dll
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -206,9 +215,18 @@ exit /b %1
 if %errorlevel% neq 0 goto :VCEnd</Command>
     </PreLinkEvent>
     <PostBuildEvent>
-      <Message>Copying to output directory</Message>
+      <Message>Copying to output directory	Copying to tests directory</Message>
       <Command>setlocal
 "C:\Program Files\CMake\bin\cmake.exe" -E copy D:/Projekty/Learnings/CMakeVSCV2/vscode-cmake-hello/build/hello/Release/hello.dll ../apps/Release/hello.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/Projekty/Learnings/CMakeVSCV2/vscode-cmake-hello/build/hello/Release/hello.dll ../tests/Release/hello.dll
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -280,9 +298,18 @@ exit /b %1
 if %errorlevel% neq 0 goto :VCEnd</Command>
     </PreLinkEvent>
     <PostBuildEvent>
-      <Message>Copying to output directory</Message>
+      <Message>Copying to output directory	Copying to tests directory</Message>
       <Command>setlocal
 "C:\Program Files\CMake\bin\cmake.exe" -E copy D:/Projekty/Learnings/CMakeVSCV2/vscode-cmake-hello/build/hello/MinSizeRel/hello.dll ../apps/MinSizeRel/hello.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/Projekty/Learnings/CMakeVSCV2/vscode-cmake-hello/build/hello/MinSizeRel/hello.dll ../tests/MinSizeRel/hello.dll
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -353,9 +380,18 @@ exit /b %1
 if %errorlevel% neq 0 goto :VCEnd</Command>
     </PreLinkEvent>
     <PostBuildEvent>
-      <Message>Copying to output directory</Message>
+      <Message>Copying to output directory	Copying to tests directory</Message>
       <Command>setlocal
 "C:\Program Files\CMake\bin\cmake.exe" -E copy D:/Projekty/Learnings/CMakeVSCV2/vscode-cmake-hello/build/hello/RelWithDebInfo/hello.dll ../apps/RelWithDebInfo/hello.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/Projekty/Learnings/CMakeVSCV2/vscode-cmake-hello/build/hello/RelWithDebInfo/hello.dll ../tests/RelWithDebInfo/hello.dll
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone

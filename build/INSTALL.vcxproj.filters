@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Projekty\Learnings\CMakeVSCV2\vscode-cmake-hello\build\CMakeFiles\5261b7c21e8b717b86ce1ee17b0d2477\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{C0689FCA-5E10-3127-9D57-FF9B802D0D60}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

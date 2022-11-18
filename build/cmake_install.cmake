@@ -36,6 +36,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("D:/Projekty/Learnings/CMakeVSCV2/vscode-cmake-hello/build/hello/cmake_install.cmake")
   include("D:/Projekty/Learnings/CMakeVSCV2/vscode-cmake-hello/build/apps/cmake_install.cmake")
+  include("D:/Projekty/Learnings/CMakeVSCV2/vscode-cmake-hello/build/tests/cmake_install.cmake")
 
 endif()
 

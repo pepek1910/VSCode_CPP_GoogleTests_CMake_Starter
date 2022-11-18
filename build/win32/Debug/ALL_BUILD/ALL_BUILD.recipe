@@ -5,6 +5,12 @@
       <FullPath>D:\Projekty\Learnings\CMakeVSCV2\vscode-cmake-hello\build\Debug\ZERO_CHECK</FullPath>
     </ProjectOutput>
     <ProjectOutput>
+      <FullPath>D:\Projekty\Learnings\CMakeVSCV2\vscode-cmake-hello\build\hello\Debug\hello.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\Projekty\Learnings\CMakeVSCV2\vscode-cmake-hello\build\tests\Debug\HelloTests.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
       <FullPath>D:\Projekty\Learnings\CMakeVSCV2\vscode-cmake-hello\build\apps\Debug\main.exe</FullPath>
     </ProjectOutput>
     <ProjectOutput>
