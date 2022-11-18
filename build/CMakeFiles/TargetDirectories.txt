@@ -1,0 +1,6 @@
+D:/Projekty/Learnings/CMakeVSCV2/vscode-cmake-hello/build/CMakeFiles/ALL_BUILD.dir
+D:/Projekty/Learnings/CMakeVSCV2/vscode-cmake-hello/build/CMakeFiles/ZERO_CHECK.dir
+D:/Projekty/Learnings/CMakeVSCV2/vscode-cmake-hello/build/hello/CMakeFiles/hello.dir
+D:/Projekty/Learnings/CMakeVSCV2/vscode-cmake-hello/build/hello/CMakeFiles/ALL_BUILD.dir
+D:/Projekty/Learnings/CMakeVSCV2/vscode-cmake-hello/build/apps/CMakeFiles/main.dir
+D:/Projekty/Learnings/CMakeVSCV2/vscode-cmake-hello/build/apps/CMakeFiles/ALL_BUILD.dir
