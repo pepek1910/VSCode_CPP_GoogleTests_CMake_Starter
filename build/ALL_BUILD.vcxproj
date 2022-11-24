@@ -177,6 +177,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Project>{89227E5B-16C7-328B-8F9D-8A2D90B989EA}</Project>
       <Name>HelloTests</Name>
     </ProjectReference>
+    <ProjectReference Include="D:\Projekty\Learnings\CMakeVSCV2\vscode-cmake-hello\build\tests\HelloTests2.vcxproj">
+      <Project>{E80DF44D-F228-3C8F-9A2A-F4E2D09D58FD}</Project>
+      <Name>HelloTests2</Name>
+    </ProjectReference>
     <ProjectReference Include="D:\Projekty\Learnings\CMakeVSCV2\vscode-cmake-hello\build\_deps\googletest-build\googlemock\gmock.vcxproj">
       <Project>{12303139-1007-3B56-AA30-404FEEF89F87}</Project>
       <Name>gmock</Name>

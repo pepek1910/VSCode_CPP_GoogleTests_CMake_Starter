@@ -1,0 +1,5 @@
+if(EXISTS "D:/Projekty/Learnings/CMakeVSCV2/vscode-cmake-hello/build/tests/HelloTests2[1]_tests.cmake")
+  include("D:/Projekty/Learnings/CMakeVSCV2/vscode-cmake-hello/build/tests/HelloTests2[1]_tests.cmake")
+else()
+  add_test(HelloTests2_NOT_BUILT HelloTests2_NOT_BUILT)
+endif()
